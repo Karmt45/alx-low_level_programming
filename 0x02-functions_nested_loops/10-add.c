@@ -1,16 +1,17 @@
-#include "main.h"
-#include <stdio.h>
+#include"main.h"
 
 /**
- * main - check the code
+ * add - add two integers
  *
- * Return: Always 0.
- */
-int main(void)
-{
-    int n;
+ * @a: first input
+ * @b: second input
+ *
+ * Return: sum of a & b
+*/
 
-    n = add(89, 9);
-    printf("%d\n", n);
-    return (0);
+int add(int a, int b)
+{
+	int sum = a + b;
+
+	return (sum);
 }
